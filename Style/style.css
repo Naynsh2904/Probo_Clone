@@ -11,6 +11,7 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 li {
@@ -25,6 +26,9 @@ video {
 /* Navbar Start */
 .navbar {
   background-color: #F5F5F5;
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
 
   .container {
     border-bottom: 1px solid rgba(0, 0, 0, 0.158);
@@ -38,7 +42,6 @@ video {
     }
   }
 }
-
 
 /* Main Start */
 
@@ -69,7 +72,6 @@ video {
     bottom: 0px;
   }
 }
-
 
 /* Mobile video Start */
 .MobileVideo {
@@ -111,7 +113,7 @@ video {
 
   .frame {
     height: 90vh;
-    width: 73%;
+    width: 71%;
     border: 10px solid black;
     border-radius: 40px;
     box-shadow: 0 0 5px solid white;
@@ -121,4 +123,77 @@ video {
       height: 90vh;
     }
   }
+}
+
+/* Trade when you like Start  */
+.tradeLike {
+  height: 600px;
+  background-color: #F5F5F5;
+
+  .container {
+    height: 600px;
+  }
+
+  h2 {
+    font-size: 4.5em;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 3em;
+    font-weight: 600;
+  }
+
+  .scroll_section {
+    max-height: 500px;
+    /* overflow-y: auto; */
+  }
+
+  .scroll_section::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tradeOption {
+    width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.42);
+
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+    }
+
+    .chart_icon {
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .trade_buttons {
+      justify-content: space-around;
+
+      .Yes {
+        background-color: #D8E8FF;
+        color: #1A7BFF;
+        font-weight: 500;
+        padding: 7px 25px;
+      }
+
+      .No {
+        background-color: #FBE1DE;
+        color: #DC2806;
+        font-weight: 500;
+        padding: 7px 25px;
+      }
+    }
+  }
+}
+
+/* What’s new in Probo? Start */
+.WhatIsProbo {
+  background-color: #F5F5F5;
 }
