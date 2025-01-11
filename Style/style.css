@@ -35,7 +35,7 @@ video {
   }
 
   .navbar-brand {
-    width: 150px;
+    width: 100px;
 
     img {
       width: 100%;
@@ -50,13 +50,16 @@ video {
   position: relative;
   padding-top: 40px;
 
+  .row {
+    padding: 0px 15px;
+  }
   h1 {
-    font-size: 4.5em;
+    font-size: 3em;
     font-weight: 500;
   }
 
   h2 {
-    font-size: 3.5em;
+    font-size: 2em;
     font-weight: 400;
   }
 
@@ -75,7 +78,6 @@ video {
 
 /* Mobile video Start */
 .MobileVideo {
-  height: 100vh;
   background-color: #262626;
 
   .col-8 {
@@ -88,7 +90,7 @@ video {
   }
 
   .header div {
-    font-size: 3rem;
+    font-size: 1.2rem;
     color: gray;
     cursor: pointer;
   }
@@ -105,15 +107,14 @@ video {
 
     p {
       color: white;
-      font-weight: 400;
-      font-size: 28px;
-      width: 70%;
+      font-weight: 300;
+      height: 100px;
     }
   }
 
   .frame {
     height: 90vh;
-    width: 71%;
+    width: 73%;
     border: 10px solid black;
     border-radius: 40px;
     box-shadow: 0 0 5px solid white;
@@ -127,26 +128,21 @@ video {
 
 /* Trade when you like Start  */
 .tradeLike {
-  height: 600px;
+  /* height: 00px; */
   background-color: #F5F5F5;
 
-  .container {
-    height: 600px;
-  }
-
   h2 {
-    font-size: 4.5em;
+    font-size: 2.5em;
     font-weight: 600;
   }
 
   h3 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 600;
   }
 
   .scroll_section {
     max-height: 500px;
-    /* overflow-y: auto; */
   }
 
   .scroll_section::-webkit-scrollbar {
@@ -154,10 +150,8 @@ video {
   }
 
   .tradeOption {
-    width: 300px;
     background-color: #FFFFFF;
     border-radius: 20px;
-    padding: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.42);
 
     img {
@@ -201,25 +195,270 @@ video {
     display: none;
   }
 
-  .flex-shrink-0{
+  .flex-shrink-0 {
     height: 400px;
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
   }
 
   .fs {
-    font-size: 60px;
+    font-size: 50px;
+  }
+
+  .cares {
+    height: 70%;
+  }
+  .exit {
+    width: 50%;
+  }
+
+  .readMore {
+    padding-top: 50px;
   }
 }
 
 .trading {
-  /* margin-right: -50px; */
-  width: 200px;
-
   img {
-    height: 250px;
+    display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .Hero {
+    position: relative;
+    padding-top: 40px;
+
+    h1 {
+      font-size: 3em;
+      font-weight: 500;
+    }
+
+    h2 {
+      font-size: 2em;
+      font-weight: 400;
+    }
+
+    button:disabled {
+      background-color: grey;
+      cursor: not-allowed;
+    }
+
+    .Images {
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      bottom: 0px;
+    }
+
+    img {
+      width: 50%;
+    }
+  }
+}
+
+@media (min-width:992px) {
+
+  /* Navbar Start */
+  .navbar {
+    background-color: #F5F5F5;
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+
+    .container {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    }
+
+    .navbar-brand {
+      width: 150px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  /* Main Start */
+
+  /* Hero start */
+  .Hero {
+    position: relative;
+    padding-top: 40px;
+
+    h1 {
+      font-size: 4.5em;
+      font-weight: 500;
+    }
+
+    h2 {
+      font-size: 3.5em;
+      font-weight: 400;
+    }
+
+    button:disabled {
+      background-color: grey;
+      cursor: not-allowed;
+    }
+
+    .Images {
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      bottom: 0px;
+    }
+  }
+
+  /* Mobile video Start */
+  .MobileVideo {
+    height: 100vh;
+    background-color: #262626;
+
+    .col-8 {
+      height: 100vh;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header div {
+      font-size: 3rem;
+      color: gray;
+      cursor: pointer;
+    }
+
+    .header .active {
+      color: white;
+      font-weight: 500;
+    }
+
+    .content {
+      color: #262626;
+      text-align: start;
+      margin-top: 50px;
+
+      p {
+        color: white;
+        font-weight: 400;
+        font-size: 28px;
+        width: 70%;
+      }
+    }
+
+    .frame {
+      height: 90vh;
+      width: 71%;
+      border: 10px solid black;
+      border-radius: 40px;
+      box-shadow: 0 0 5px solid white;
+      overflow: hidden;
+
+      iframe {
+        height: 90vh;
+      }
+    }
+  }
+
+  /* Trade when you like Start  */
+  .tradeLike {
+    height: 600px;
+    background-color: #F5F5F5;
+
+    .container {
+      height: 600px;
+    }
+
+    h2 {
+      font-size: 4.5em;
+      font-weight: 600;
+    }
+
+    h3 {
+      font-size: 3em;
+      font-weight: 600;
+    }
+
+    .scroll_section {
+      max-height: 500px;
+      /* overflow-y: auto; */
+    }
+
+    .scroll_section::-webkit-scrollbar {
+      display: none;
+    }
+
+    .tradeOption {
+      width: 300px;
+      background-color: #FFFFFF;
+      border-radius: 20px;
+      padding: 10px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.42);
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+      }
+
+      .chart_icon {
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      .trade_buttons {
+        justify-content: space-around;
+
+        .Yes {
+          background-color: #D8E8FF;
+          color: #1A7BFF;
+          font-weight: 500;
+          padding: 7px 25px;
+        }
+
+        .No {
+          background-color: #FBE1DE;
+          color: #DC2806;
+          font-weight: 500;
+          padding: 7px 25px;
+        }
+      }
+    }
+  }
+
+  /* What’s new in Probo? Start */
+  .WhatIsProbo {
+    background-color: #F5F5F5;
+
+    .scroll_section_two::-webkit-scrollbar {
+      display: none;
+    }
+
+    .flex-shrink-0 {
+      height: 400px;
+    }
+
+    h2 {
+      font-size: 40px;
+      font-weight: 600;
+    }
+
+    .fs {
+      font-size: 60px;
+    }
+  }
+
+  .trading {
+    /* margin-right: -50px; */
+    width: 200px;
+
+    img {
+      height: 250px;
+    }
   }
 }
