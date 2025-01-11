@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #F5F5F5;
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+
+  .container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+  }
+
+  .navbar-brand {
+    width: 150px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -196,4 +196,30 @@ video {
 /* What’s new in Probo? Start */
 .WhatIsProbo {
   background-color: #F5F5F5;
+
+  .scroll_section_two::-webkit-scrollbar {
+    display: none;
+  }
+
+  .flex-shrink-0{
+    height: 400px;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .fs {
+    font-size: 60px;
+  }
+}
+
+.trading {
+  /* margin-right: -50px; */
+  width: 200px;
+
+  img {
+    height: 250px;
+  }
 }
