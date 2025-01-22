@@ -43,6 +43,32 @@ video {
   }
 }
 
+.herosection {
+  background: radial-gradient(76.17% 76.17% at 4.48% 30.08%, #373737 0, #000 100%);
+
+  .container {
+
+    color: white;
+
+    h2 {
+      font-size: 35px;
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: 25px;
+    }
+
+    .img_1 {
+      width: 60px;
+    }
+
+    .img_2 {
+      width: 100%;
+    }
+  }
+}
+
 footer {
   background-color: #F5F5F5;
 
@@ -86,6 +112,59 @@ footer {
     a {
       color: gray;
       text-decoration: none;
+    }
+  }
+}
+
+@media (min-width : 768px) {
+  .herosection {
+    padding-top: 25px;
+
+    .container {
+
+      h2 {
+        font-size: 40px;
+        font-weight: 600;
+      }
+
+      h3 {
+        font-size: 30px;
+      }
+
+      .img_1 {
+        width: 70px;
+      }
+
+      .img_2 {
+        position: relative;
+        bottom: -36px;
+      }
+    }
+  }
+}
+
+@media (min-width : 992px) {
+  .herosection {
+    padding-top: 50px;
+
+    .container {
+
+      h2 {
+        font-size: 50px;
+        font-weight: 600;
+      }
+
+      h3 {
+        font-size: 40px;
+      }
+
+      .img_1 {
+        width: 70px;
+      }
+
+      .img_2 {
+        bottom: 0px;
+      }
     }
   }
 }

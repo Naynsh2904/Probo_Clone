@@ -115,21 +115,15 @@ video {
 
   .frame {
     height: 90vh;
-    width: 73%;
     border: 10px solid black;
     border-radius: 40px;
     box-shadow: 0 0 5px solid white;
     overflow: hidden;
-
-    iframe {
-      height: 90vh;
-    }
   }
 }
 
 /* Trade when you like Start  */
 .tradeLike {
-  /* height: 00px; */
   background-color: #F5F5F5;
 
   h2 {
@@ -228,6 +222,57 @@ video {
   }
 }
 
+footer {
+  background-color: #F5F5F5;
+
+  .footerNavbar {
+
+    .container {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    }
+
+    img {
+      width: 200px;
+    }
+  }
+
+  .footerLinks {
+    .container {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    }
+
+    a {
+      color: gray;
+      text-decoration: none;
+    }
+  }
+
+  .Partnership {
+    .container {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    }
+
+    .partnerships_logos {
+      justify-content: center;
+    }
+  }
+
+  .socialMedia {
+    .container {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    }
+  }
+
+  .copyright {
+    color: gray;
+
+    a {
+      color: gray;
+      text-decoration: none;
+    }
+  }
+}
+
 @media (min-width:768px) {
   .Hero {
     position: relative;
@@ -257,6 +302,22 @@ video {
 
     img {
       width: 50%;
+    }
+  }
+}
+
+.MobileVideo {
+
+  .frame {
+    height: 85vh;
+    /* width: 70%; */
+    border: 10px solid black;
+    border-radius: 40px;
+    box-shadow: 0 0 5px solid white;
+    overflow: hidden;
+
+    iframe {
+      height: 90%;
     }
   }
 }

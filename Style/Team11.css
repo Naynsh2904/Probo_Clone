@@ -89,3 +89,50 @@ footer {
     }
   }
 }
+
+footer {
+  background-color: #F5F5F5;
+
+  .footerNavbar {
+
+    .container {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    }
+
+    img {
+      width: 200px;
+    }
+  }
+
+  .footerLinks {
+    .container {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    }
+
+    a {
+      color: gray;
+      text-decoration: none;
+    }
+  }
+
+  .Partnership {
+    .container {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    }
+  }
+
+  .socialMedia {
+    .container {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    }
+  }
+
+  .copyright {
+    color: gray;
+
+    a {
+      color: gray;
+      text-decoration: none;
+    }
+  }
+}

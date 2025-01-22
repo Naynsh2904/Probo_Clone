@@ -107,6 +107,18 @@ video {
 }
 
 footer {
+  background-color: #F5F5F5;
+
+  .footerNavbar {
+
+    .container {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    }
+
+    img {
+      width: 200px;
+    }
+  }
 
   .footerLinks {
     .container {
@@ -122,6 +134,10 @@ footer {
   .Partnership {
     .container {
       border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    }
+
+    .partnerships_logos {
+      justify-content: center;
     }
   }
 

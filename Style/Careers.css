@@ -89,3 +89,95 @@ footer {
     }
   }
 }
+
+.Opportunities {
+
+  h1 {
+    font-size: 90px;
+    font-weight: 600;
+  }
+  background-color: #F5F5F5;
+
+  .job-listing {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+
+  .apply-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .apply-btn:hover {
+    background-color: #444;
+  }
+
+  .py-3.px-3 {
+    padding: 10px 15px;
+  }
+
+  .bg-white {
+    background-color: white;
+  }
+
+  .rounded-pill {
+    border-radius: 50px;
+  }
+}
+
+footer {
+  background-color: #F5F5F5;
+
+  .footerNavbar {
+
+    .container {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    }
+
+    img {
+      width: 200px;
+    }
+  }
+
+  .footerLinks {
+    .container {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    }
+
+    a {
+      color: gray;
+      text-decoration: none;
+    }
+  }
+
+  .Partnership {
+    .container {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    }
+
+    .partnerships_logos {
+      justify-content: center;
+    }
+  }
+
+  .socialMedia {
+    .container {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    }
+  }
+
+  .copyright {
+    color: gray;
+
+    a {
+      color: gray;
+      text-decoration: none;
+    }
+  }
+}
