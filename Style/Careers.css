@@ -43,6 +43,80 @@ video {
   }
 }
 
+main {
+  .Opportunities {
+    background-color: #F5F5F5;
+
+    h1 {
+      font-size: 35px;
+      font-weight: 600;
+    }
+
+    select {
+      border-radius: 20px;
+      border: 1px solid rgba(128, 128, 128, 0.169);
+      background-color: #fff;
+    }
+
+    .job-listing {
+      background-color: #fff;
+      border: 1px solid #E3E3E3;
+      margin: 10px 0;
+      border-radius: 20px;
+    }
+
+    .apply-btn {
+      background-color: black;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .apply-btn:hover {
+      background-color: #444;
+    }
+
+    .py-3.px-3 {
+      padding: 10px 15px;
+    }
+
+    .bg-white {
+      background-color: white;
+    }
+
+    .rounded-pill {
+      border-radius: 50px;
+    }
+  }
+
+  .benifits {
+    background-color: #BBE2CE;
+
+    h2 {
+      font-size: 35px;
+      font-weight: 600;
+    }
+
+    img {
+      width: 80px;
+      padding-right: 10px;
+    }
+  }
+  
+  .quickLinks {
+    background-color: #F5F5F5;
+
+    .job-listing {
+      background-color: #fff;
+      border: 1px solid #E3E3E3;
+      margin: 10px 0;
+      border-radius: 20px;
+    }
+  }
+}
+
 footer {
   background-color: #F5F5F5;
 
@@ -90,94 +164,35 @@ footer {
   }
 }
 
-.Opportunities {
+@media (min-width : 768px) {
+  main {
+    .Opportunities {
+      h1 {
+        font-size: 55px;
+        font-weight: 600;
+      }
+    }
 
-  h1 {
-    font-size: 90px;
-    font-weight: 600;
-  }
-  background-color: #F5F5F5;
+    .benifits {
 
-  .job-listing {
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-  }
+      h2 {
+        font-size: 45px;
+      }
 
-  .apply-btn {
-    background-color: black;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .apply-btn:hover {
-    background-color: #444;
-  }
-
-  .py-3.px-3 {
-    padding: 10px 15px;
-  }
-
-  .bg-white {
-    background-color: white;
-  }
-
-  .rounded-pill {
-    border-radius: 50px;
+      p {
+        width: 60%;
+      }
+    }
   }
 }
 
-footer {
-  background-color: #F5F5F5;
-
-  .footerNavbar {
-
-    .container {
-      border-bottom: 1px solid rgba(0, 0, 0, 0.158);
-    }
-
-    img {
-      width: 200px;
-    }
-  }
-
-  .footerLinks {
-    .container {
-      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
-    }
-
-    a {
-      color: gray;
-      text-decoration: none;
-    }
-  }
-
-  .Partnership {
-    .container {
-      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
-    }
-
-    .partnerships_logos {
-      justify-content: center;
-    }
-  }
-
-  .socialMedia {
-    .container {
-      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
-    }
-  }
-
-  .copyright {
-    color: gray;
-
-    a {
-      color: gray;
-      text-decoration: none;
+@media (min-width : 992px) {
+  main {
+    .Opportunities {
+      h1 {
+        font-size: 95px;
+        font-weight: 600;
+      }
     }
   }
 }

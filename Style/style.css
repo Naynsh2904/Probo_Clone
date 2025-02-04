@@ -43,8 +43,6 @@ video {
   }
 }
 
-/* Main Start */
-
 /* Hero start */
 .Hero {
   position: relative;
@@ -184,6 +182,7 @@ video {
 
 /* What’s new in Probo? Start */
 .WhatIsProbo {
+  padding: 30px 0;
   background-color: #F5F5F5;
 
   .scroll_section_two::-webkit-scrollbar {
@@ -213,6 +212,71 @@ video {
 
   .readMore {
     padding-top: 50px;
+  }
+}
+
+.fifth_section {
+  padding: 30px 0;
+
+  h2 {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .cards {
+    padding: 10px 10px;
+
+    img {
+      padding: 30px 0;
+      width: 80px;
+      /* height: 80px; */
+
+    }
+  }
+}
+
+.sixth {
+  padding: 30px 0;
+  background-color: #F5F5F5;
+
+  .Two {
+    transform: rotate(180deg);
+  }
+
+  .heading {
+    img {
+      width: 36px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .sixth_cards {
+    margin: 0 15px -100px;
+    padding: 10px;
+    background-color: #fff;
+    transform: translateY(-110px);
+    border-radius: 3px;
+
+    p {
+      margin: 0;
+      font-size: 13px;
+    }
+  }
+}
+
+.seventh {
+  padding: 50px 0;
+
+  a {
+    color: white;
+    padding: 10px 15px;
+    margin: 100px 0;
+    border: 1px solid white;
+    border-radius: 25px;
+
   }
 }
 
@@ -304,6 +368,27 @@ footer {
       width: 50%;
     }
   }
+
+  /* What’s new in Probo? Start */
+  .WhatIsProbo {
+
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .fs {
+      font-size: 40px;
+    }
+
+    .cares {
+      height: 60%;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .MobileVideo {
@@ -319,6 +404,46 @@ footer {
     iframe {
       height: 90%;
     }
+  }
+}
+
+.sixth {
+
+  .heading {
+    img {
+      width: 56px;
+    }
+
+    h2 {
+      font-size: 35px;
+      font-weight: 600;
+    }
+  }
+
+  .sixth_cards {
+    transform: translateY(-120px);
+
+    p {
+      margin-bottom: 5px;
+      font-size: 13px;
+    }
+  }
+}
+
+.seventh {
+  overflow: hidden;
+  padding: 50px 0 0;
+
+  a {
+    padding: 10px 20px;
+  }
+
+  h2 {
+    font-size: 46px;
+  }
+
+  .person-left {
+    transform: translateY(10px);
   }
 }
 
@@ -376,53 +501,9 @@ footer {
 
   /* Mobile video Start */
   .MobileVideo {
-    height: 100vh;
-    background-color: #262626;
-
-    .col-8 {
-      height: 100vh;
-    }
-
-    .header {
-      display: flex;
-      justify-content: space-between;
-    }
 
     .header div {
       font-size: 3rem;
-      color: gray;
-      cursor: pointer;
-    }
-
-    .header .active {
-      color: white;
-      font-weight: 500;
-    }
-
-    .content {
-      color: #262626;
-      text-align: start;
-      margin-top: 50px;
-
-      p {
-        color: white;
-        font-weight: 400;
-        font-size: 28px;
-        width: 70%;
-      }
-    }
-
-    .frame {
-      height: 90vh;
-      width: 71%;
-      border: 10px solid black;
-      border-radius: 40px;
-      box-shadow: 0 0 5px solid white;
-      overflow: hidden;
-
-      iframe {
-        height: 90vh;
-      }
     }
   }
 
@@ -496,11 +577,6 @@ footer {
 
   /* What’s new in Probo? Start */
   .WhatIsProbo {
-    background-color: #F5F5F5;
-
-    .scroll_section_two::-webkit-scrollbar {
-      display: none;
-    }
 
     .flex-shrink-0 {
       height: 400px;
@@ -513,6 +589,34 @@ footer {
 
     .fs {
       font-size: 60px;
+    }
+  }
+
+  .fifth_section {
+    h2 {
+      font-weight: 600;
+      font-size: 45px;
+    }
+  }
+
+  .sixth {
+    padding: 30px 0;
+    background-color: #F5F5F5;
+
+    .heading {
+      img {
+        width: 66px;
+      }
+
+      h2 {
+        font-size: 50px;
+      }
+    }
+  }
+
+  .seventh {
+    h2 {
+      font-size: 66px;
     }
   }
 
