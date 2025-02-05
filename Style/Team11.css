@@ -113,54 +113,23 @@ main {
   img {
     width: 100%;
   }
-}
 
-footer {
-  background-color: #F5F5F5;
-
-  .footerNavbar {
-
-    .container {
-      border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+  .Demand {
+    h6 {
+      font-size: 15px;
     }
 
-    img {
-      width: 200px;
-    }
-  }
-
-  .footerLinks {
-    .container {
-      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+    p {
+      font-size: 10px;
     }
 
-    a {
-      color: gray;
-      text-decoration: none;
-    }
-  }
-
-  .Partnership {
-    .container {
-      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
-    }
-  }
-
-  .socialMedia {
-    .container {
-      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
-    }
-  }
-
-  .copyright {
-    color: gray;
-
-    a {
-      color: gray;
-      text-decoration: none;
+    .text-center {
+      border-right: 1px solid skyblue;
+      border-left: 1px solid skyblue;
     }
   }
 }
+
 
 @media (min-width : 768px) {
   main {
@@ -190,7 +159,7 @@ footer {
     }
 
     img {
-      width: 90%;
+      width: auto;
     }
   }
 }

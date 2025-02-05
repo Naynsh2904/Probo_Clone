@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 * {
   padding: 0;
@@ -20,7 +20,7 @@ li {
 
 img,
 video {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 /* Navbar Start */
@@ -43,49 +43,81 @@ video {
   }
 }
 
-footer {
-  background-color: #F5F5F5;
+main {
 
-  .footerNavbar {
-
-    .container {
-      border-bottom: 1px solid rgba(0, 0, 0, 0.158);
-    }
-
-    img {
-      width: 200px;
-    }
+  .section1 {
+    /* border-radius: 15px;
+    overflow: hidden; */
   }
 
-  .footerLinks {
-    .container {
-      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
+  .card-1 {
+    border: 0.5px solid gray;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .img_1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  span {
+    color: #E7685A;
+    font-weight: 600;
+  }
+
+  .section2 {
+    .card-2 {
+      border: 0.5px solid gray;
+      border-radius: 15px;
+      overflow: hidden;
+
+      div {
+        height: 250px;
+      }
+    }
+  }
+}
+
+.section3 {
+
+  .section32 {
+    background-color: #C15A3F;
+  }
+
+  .section322 {
+    div {
+      background-color: #0A52A0;
+    }
+  }
+  .section323 {
+    div {
+      background-color: #62492A;
+    }
+  }
+}
+
+.section4 {
+  background-image: url(../images/illustration/banner.webp);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  border-radius: 30px;
+}
+
+.section5 {
+  .section5_cards {
+    border: 0.5px solid gray;
+    height: 250px;
+    margin-bottom: 30px;
+
+    h4 {
+      font-size: 20px;
     }
 
-    a {
+    p {
+      font-size: 15px;
       color: gray;
-      text-decoration: none;
-    }
-  }
-
-  .Partnership {
-    .container {
-      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
-    }
-  }
-
-  .socialMedia {
-    .container {
-      border-bottom: 2px solid rgba(0, 0, 0, 0.078);
-    }
-  }
-
-  .copyright {
-    color: gray;
-
-    a {
-      color: gray;
-      text-decoration: none;
     }
   }
 }
@@ -135,4 +167,20 @@ footer {
       text-decoration: none;
     }
   }
+}
+
+.Samachar {
+  font-size: 25px;
+}
+
+@media (min-width: 768px ) {
+  .Samachar {
+    font-size: 50px;
+  }  
+}
+
+@media (min-width: 992px ) {
+  .Samachar {
+    font-size: 90px;
+  }  
 }
